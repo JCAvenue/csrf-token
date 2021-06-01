@@ -5,7 +5,7 @@
 [![made-with-PHP](https://img.shields.io/badge/Made%20with-PHP-1f425f.svg)](https://GitHub.com/JCAvenue/csrf-token/)
 
 
-This CSRF-TOKEN is written in PHP and very simple to use. It generate random token in every refresh of the browser page.
+This CSRF-TOKEN is written in PHP and very simple to use. It generates random token in every refresh of the browser page.
 
 ## Generate token
 ```
@@ -29,4 +29,4 @@ This CSRF-TOKEN is written in PHP and very simple to use. It generate random tok
   }
 ?>
 ```
-+ You can check if the token is valid using Token::generate();
++ You can check if the Session token is valid using Token::generate();
